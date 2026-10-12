@@ -26,11 +26,11 @@ algorytmy oraz dobre praktyki i standardy pisania kodu.
 | [05](lab05_listy_krotki/) | wt 03.11.2026 | Listy i krotki |
 | [06](lab06_slowniki_zbiory/) | wt 24.11.2026 | Słowniki i zbiory |
 | [07](lab07_funkcje/) | wt 01.12.2026 | Funkcje 🤖 |
-| [08](lab08_kolokwium1/) | **śr 02.12.2026, 14:00–17:15, A/136** | **Kolokwium I** |
-| [09](lab09_pliki/) | wt 08.12.2026 | Praca z plikami |
-| [10](lab10_moduly_pakiety/) | wt 15.12.2026 | Moduły i pakiety |
-| [11](lab11_daty_math/) | wt 22.12.2026 | Biblioteka standardowa: daty, czas, math |
-| [12](lab12_wyjatki/) | **pt 08.01.2027, 14:00–17:15, A/124** | Obsługa wyjątków |
+| [08](lab09_pliki/) | **śr 02.12.2026, 14:00–17:15, A/136** | Praca z plikami |
+| [09](lab10_moduly_pakiety/) | wt 08.12.2026 | Moduły i pakiety |
+| [10](lab11_daty_math/) | wt 15.12.2026 | Biblioteka standardowa: daty, czas, math |
+| [11](lab12_wyjatki/) | wt 22.12.2026 | Obsługa wyjątków |
+| [12](lab08_kolokwium1/) | **pt 08.01.2027, 14:00–17:15, A/124** | **Kolokwium I** |
 | [13](lab13_sortowanie/) | wt 12.01.2027 | Sortowanie, wyszukiwanie, notacja Big O 🤖 |
 | [14](lab14_testy_tdd/) | wt 19.01.2027, **A/111** | Testy jednostkowe i TDD 🤖 |
 | [15](lab15_kolokwium2/) | wt 26.01.2027, **A/111** | **Kolokwium II** |

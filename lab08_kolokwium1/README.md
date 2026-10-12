@@ -1,6 +1,6 @@
 # Lab 08 – 📝 Kolokwium I
 
-📅 **środa 02.12.2026, 14:00–17:15** · 📍 **sala A/136** · ⏱ 120 min pisania
+📅 **piątek 08.01.2027, 14:00–17:15** · 📍 **sala A/124** · ⏱ 120 min pisania
 **Sylabus:** treść nr 16 · **Efekty:** U1, U2, U3, KS1 · **Waga:** 50 pkt (połowa oceny z laboratorium) · **Slajdy:** [slajdy.md](slajdy.md)
 
 ## Zakres

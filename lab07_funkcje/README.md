@@ -63,7 +63,9 @@ Do **11:45**: `git add lab07_funkcje`, `git commit -m "Lab 07"`, `git push`.
 
 > ⏰ **Punkt za aktywność tylko za push przed 11:45** – liczy się godzina na GitHubie (zakładka Actions), nie data commita. Po zajęciach, nawet minutę później, punktu już nie ma. Nieobecność = brak punktu. Wymagane: wszystkie testy ★ zielone. [Zasady](../README.md#punkty-za-aktywność--tylko-za-pracę-na-zajęciach)
 
-> 📝 **Kolokwium I – jutro: środa 02.12.2026, 14:00–17:15, sala A/136.** Zakres: laby 01–07. Szczegóły w [lab08_kolokwium1](../lab08_kolokwium1/).
+> 📅 Następne zajęcia – **jutro: środa 02.12.2026, 14:00–17:15, sala A/136** (wyjątkowo!): [praca z plikami](../lab09_pliki/).
+>
+> 📝 **Kolokwium I – piątek 08.01.2027, 14:00–17:15, sala A/124.** Szczegóły w [lab08_kolokwium1](../lab08_kolokwium1/).
 
 ## Do poczytania
 
