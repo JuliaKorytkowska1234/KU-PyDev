@@ -95,7 +95,9 @@ Punkt za lab dostajesz **wyłącznie**, gdy spełnisz wszystkie trzy warunki:
   dosyłania poprawek ani zaliczania labu zdalnie.
 - **Nieobecność = 0 pkt aktywności** za ten lab. Zadania możesz zrobić w domu dla siebie (i warto), ale punktów za nie nie ma.
 - Dlatego na Lab 01 włączasz GitHub Actions w forku – bez tego nie da się potwierdzić czasu oddania.
-- Jedyny wyjątek: awaria po stronie uczelni lub GitHuba, zgłoszona prowadzącemu **w trakcie zajęć**.
+- Wyjątki:
+  - **Lab 01 oddajesz na zajęciach 13.10.2026 (Lab 02), do 11:45** – 06.10 dopiero zakładaliśmy forki;
+  - awaria po stronie uczelni lub GitHuba, zgłoszona prowadzącemu **w trakcie zajęć**.
 
 ## Zasady korzystania z AI
 

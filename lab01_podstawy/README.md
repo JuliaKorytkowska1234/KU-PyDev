@@ -52,7 +52,9 @@ python -m unittest discover -s tests -p "test_obowiazkowe.py" -v # tylko ★
 
 ## Oddanie
 
-Do **11:45**:
+> 📌 **Lab 01 oddajesz na zajęciach 13.10.2026 (Lab 02), do 11:45.** 06.10 dopiero zakładaliśmy forki, więc termin oddania przesunęliśmy o tydzień.
+
+Do **11:45 we wtorek 13.10**:
 
 ```bash
 git add lab01_podstawy
@@ -60,7 +62,7 @@ git commit -m "Lab 01"
 git push
 ```
 
-> ⏰ **Punkt za aktywność tylko za push przed 11:45** – liczy się godzina na GitHubie (zakładka Actions), nie data commita. Po zajęciach, nawet minutę później, punktu już nie ma. Nieobecność = brak punktu. Wymagane: wszystkie testy ★ zielone. [Zasady](../README.md#punkty-za-aktywność--tylko-za-pracę-na-zajęciach)
+> ⏰ **Punkt za aktywność tylko za push 13.10 przed 11:45** – liczy się godzina na GitHubie (zakładka Actions), nie data commita. Po zajęciach, nawet minutę później, punktu już nie ma. Nieobecność 13.10 = brak punktu. Wymagane: wszystkie testy ★ zielone. [Zasady](../README.md#punkty-za-aktywność--tylko-za-pracę-na-zajęciach)
 
 ## Do poczytania
 

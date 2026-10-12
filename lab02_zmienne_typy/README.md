@@ -11,13 +11,20 @@ Po zajęciach potrafisz:
 - pisać programy przeliczające jednostki,
 - formatować liczby w f-stringach.
 
-## Na start: aktualizacja forka
+## Na start: fork i Lab 01
 
-Na GitHubie w swoim forku kliknij **Sync fork → Update branch**, a potem w terminalu:
+**Nie masz jeszcze forka?** Zrób go teraz według [SETUP.md](../SETUP.md), krok 4: **Fork** → włącz **Actions** → sklonuj **swój** fork.
+
+**Sklonowałeś repozytorium prowadzącego bez forka?** Zrób fork, a potem w terminalu (wstaw swój login):
 
 ```bash
-git pull
+git remote set-url origin https://github.com/TWOJ_LOGIN/KU-PyDev.git
+git pull --no-rebase --no-edit
 ```
+
+**Masz już fork?** Na GitHubie kliknij **Sync fork → Update branch**, a potem `git pull`.
+
+> 📌 **Dziś oddajesz też Lab 01.** Zacznij od zadań ★ w [`lab01_podstawy`](../lab01_podstawy/) (jeśli masz je zrobione – wystarczy push), potem przejdź do Lab 02.
 
 ## Zadania obowiązkowe ★
 
@@ -46,7 +53,17 @@ python -m unittest discover -s tests -v
 
 ## Oddanie
 
-Do **11:45**: `git add lab02_zmienne_typy`, `git commit -m "Lab 02"`, `git push`.
+Do **11:45** (z głównego folderu repozytorium):
+
+```bash
+git add lab01_podstawy lab02_zmienne_typy
+git commit -m "Lab 01 i Lab 02"
+git push
+```
+
+Jeden push przed 11:45 wystarczy na oba punkty – testy w Actions sprawdzają wszystkie laby naraz.
+
+> ℹ️ Czerwony ❌ przy całym uruchomieniu w zakładce **Actions** jest normalny – laby, których jeszcze nie było, nie przechodzą testów. Otwórz uruchomienie i sprawdź zadania **`testy (lab01_podstawy)`** i **`testy (lab02_zmienne_typy)`** – te muszą być zielone ✅.
 
 > ⏰ **Punkt za aktywność tylko za push przed 11:45** – liczy się godzina na GitHubie (zakładka Actions), nie data commita. Po zajęciach, nawet minutę później, punktu już nie ma. Nieobecność = brak punktu. Wymagane: wszystkie testy ★ zielone. [Zasady](../README.md#punkty-za-aktywność--tylko-za-pracę-na-zajęciach)
 
