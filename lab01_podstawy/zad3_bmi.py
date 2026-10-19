@@ -11,3 +11,10 @@
 #   - ** to potęgowanie, a f"{x:.2f}" formatuje liczbę do 2 miejsc
 
 # TODO: Twój kod poniżej
+
+masa = float(input("Podaj mase w kg "))
+wzrost = float(input("Podaj wzrost w metrach "))
+
+bmi = masa/wzrost**2
+
+print(f"twoje BMI wynosi {bmi:.2f}")
