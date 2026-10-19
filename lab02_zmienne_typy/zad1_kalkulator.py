@@ -13,3 +13,14 @@
 # Załóż, że druga liczba nie jest zerem (obsługę zera dodasz w labie 03).
 
 # TODO: Twój kod poniżej
+
+l1 = float(input("Podaj pierwszą liczbę"))
+l2 = float(input("Podaj drugą liczbę rozną od zera"))
+
+print(f"{l1 + l2}")
+print(f"{l1 - l2}")
+print(f"{l1 * l2}")
+print(f"{l1 / l2}")
+print(f"{l1 // l2}")
+print(f"{l1 % l2}")
+print(f"{l1 ** l2}")
