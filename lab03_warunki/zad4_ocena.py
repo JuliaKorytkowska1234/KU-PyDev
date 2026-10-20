@@ -13,3 +13,15 @@
 # Uwaga: w zachęcie input() nie wypisuj liczb (np. „0-100”) – testy szukają liczb w wyjściu.
 
 # TODO: Twój kod poniżej
+pkt = int(input("Podaj liczbę punktów "))
+
+if pkt > 91:
+    print("5")
+elif pkt>83:
+    print("4.5")
+elif pkt> 75:
+    print("4")
+elif pkt> 67:
+    print("3.5")
+else:
+    print("2")
