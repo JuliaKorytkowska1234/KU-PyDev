@@ -12,6 +12,6 @@
 # TODO: Twój kod poniżej
 sekundy = int(input("Podaj liczbę sekund "))
 godz = sekundy // 3600
-min = (sekundy / 60) % 60
-sek = (sekundy % 3600) // 60
+min = (sekundy % 3600) // 60
+sek = sekundy % 60
 print(f"{godz:.0f} h {min:.0f} min {sek:.0f} sek")
