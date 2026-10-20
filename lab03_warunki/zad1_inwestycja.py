@@ -20,3 +20,19 @@
 # To ćwiczenie z instrukcji warunkowych, a nie porada inwestycyjna. :)
 
 # TODO: Twój kod poniżej
+kwota = float(input("Podaj kwotę: "))
+horyzont = int(input("Podaj horyzont inwestycji w latach "))
+ryzyko = input("Podaj profil ryzyka ").strip().lower()
+
+if kwota < 1000:
+    print("Najpierw zbuduj poduszkę finansową")
+elif horyzont < 2:
+    print("Lokata lub konto oszczędnościowe")
+elif ryzyko == "niskie":
+    print("Obligacje skarbowe")
+elif ryzyko == "wysokie" and horyzont >= 5:
+    print("Fundusz akcji (ETF)")
+elif ryzyko == "wysokie" and horyzont < 5:
+    print("Fundusz mieszany")
+else:
+    print("Nieznany profil ryzyka")
