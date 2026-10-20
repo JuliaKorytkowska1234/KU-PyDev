@@ -9,9 +9,9 @@
 # Wyniki zaokrąglij do 1 miejsca po przecinku: f"{x:.1f}"
 
 # TODO: Twój kod poniżej
-temp_C = int(input("Podaj temperaturę w stopniach Celsjusza "))
-temp_F = int(input("Podaj temperaturę w stopniach Fahrenheita "))
+temp_C = float(input("Podaj temperaturę w stopniach Celsjusza "))
+temp_F = float(input("Podaj temperaturę w stopniach Fahrenheita "))
 
 
-print(f"{temp_C} °C = {temp_C*9 / 5+32} °F")
-print(f"{temp_F} °F = {(temp_F-32)*5 / 9} °C")
+print(f"{temp_C} °C = {temp_C*9 / 5+32:.1f} °F")
+print(f"{temp_F} °F = {(temp_F-32)*5 / 9:.1f} °C")
