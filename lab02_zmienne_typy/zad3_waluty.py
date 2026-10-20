@@ -7,14 +7,17 @@
 #
 # Kursy są STAŁE (na potrzeby zadania – nie są to aktualne kursy NBP):
 
-EUR_RATE = 4.25   # 1 EUR = 4.25 PLN
-USD_RATE = 3.80   # 1 USD = 3.80 PLN
+#EUR_RATE = 4.25   # 1 EUR = 4.25 PLN
+#USD_RATE = 3.80   # 1 USD = 3.80 PLN
 
 # TODO: Twój kod poniżej
 kwota_w_zl = float(input("Podaj kwotę w złotych "))
 
-kwota_w_eur = kwota_w_zl / 4.25
-kwota_w_usd = kwota_w_zl / 3.80
+EUR_RATE = 4.25   
+USD_RATE = 3.80 
 
-print(f"{kwota_w_zl} PLN = {kwota_w_eur:.2f} EUR")
-print(f"{kwota_w_zl} PLN = {kwota_w_usd:.2f} USD")
+kwota_w_eur = kwota_w_zl / EUR_RATE
+kwota_w_usd = kwota_w_zl / USD_RATE
+
+print(f"{kwota_w_zl:.2f} PLN = {kwota_w_eur:.2f} EUR")
+print(f"{kwota_w_zl:.2f} PLN = {kwota_w_usd:.2f} USD")
