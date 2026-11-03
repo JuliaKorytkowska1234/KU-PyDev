@@ -23,5 +23,21 @@ with open("dane/strona.html", encoding="utf-8") as f:
 # TODO: Twój kod poniżej
 
 
-while 
 
+print("Liczba linków:", html.count('href="'))
+
+domeny = []
+
+linki = html.split('href="')
+
+for link in linki[1:]:
+    adres = link.split('"')[0]
+
+    if "://" in adres:
+        domena = adres.split("/")[2]
+
+        if domena not in domeny:
+            domeny.append(domena)
+
+for domena in domeny:
+    print(domena)

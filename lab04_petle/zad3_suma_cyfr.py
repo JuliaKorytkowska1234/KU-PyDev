@@ -11,7 +11,7 @@
 # Uwaga: liczba 0 ma jedną cyfrę.
 
 # TODO: Twój kod poniżej
-n = input()
+n = int(input())        
 dlu = len(n)
 suma = 0
 
