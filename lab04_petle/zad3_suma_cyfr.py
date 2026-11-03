@@ -21,3 +21,4 @@ for i in range(dlu):
 
 print(f"Suma cyfr: {suma}")
 print(f"Liczba cyfr: {dlu}")
+
