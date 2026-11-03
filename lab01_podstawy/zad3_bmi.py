@@ -12,9 +12,18 @@
 
 # TODO: Twój kod poniżej
 
+ HEAD
 masa = float(input("Podaj mase w kg "))
 wzrost = float(input("Podaj wzrost w metrach "))
 
 bmi = masa/wzrost**2
 
 print(f"twoje BMI wynosi {bmi:.2f}")
+
+masa = float(input("Podaj mase: "))
+wzrost = float(input("Podaj wzrost w metrach: "))
+bmi = masa / (wzrost)**2
+bmi_2 = round(bmi,2)
+
+print(f"{bmi:.2f} ")
+ 2a807b6 (Lab-4_1)

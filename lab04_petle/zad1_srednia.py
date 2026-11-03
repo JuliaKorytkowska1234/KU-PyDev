@@ -10,3 +10,23 @@
 #   - licz sumę i liczbę ocen w dwóch zmiennych
 
 # TODO: Twój kod poniżej
+suma = 0
+ilosc = 0
+
+
+
+while True:
+    a = input("Podaj ocenę: ")
+    if a == "":
+        break
+
+    a = float(a)
+    suma += a
+    ilosc += 1
+
+
+if ilosc == 0:
+    print("Brak ocen")
+else:
+    sr = suma / ilosc
+    print(f"Średnia ocen: {sr:.2f}")
