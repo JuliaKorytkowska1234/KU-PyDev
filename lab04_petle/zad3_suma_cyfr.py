@@ -11,3 +11,13 @@
 # Uwaga: liczba 0 ma jedną cyfrę.
 
 # TODO: Twój kod poniżej
+n = input()
+dlu = len(n)
+suma = 0
+
+for i in range(dlu):
+    liczba = int(n[i])
+    suma += liczba
+
+print(f"Suma cyfr: {suma}")
+print(f"Liczba cyfr: {dlu}")
